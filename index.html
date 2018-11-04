@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta name="author" content="Taybin Rutkin">
+		<meta name="description" content="The Technical and the Transcendental">
+		<meta name="generator" content="Hugo 0.50" />
+		<title>Coffee&#39;s for Closures</title>
+		<link rel="shortcut icon" href="https://coffeesforclosures/images/favicon.ico">
+		<link rel="stylesheet" href="https://coffeesforclosures/css/style.css">
+		<link rel="stylesheet" href="https://coffeesforclosures/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="https://coffeesforclosures/css/font-awesome.min.css">
+		
+
+		
+		<link href="https://coffeesforclosures/index.xml" rel="alternate" type="application/rss+xml" title="Coffee&#39;s for Closures" />
+		
+
+		
+	</head>
+
+
+<body>
+    <nav class="main-nav">
+	
+	
+	<a href='https://coffeesforclosures/posts'>Archive</a>
+	<a href='https://coffeesforclosures/tags'>Tags</a>
+	
+
+	
+
+	
+	<a class="cta" href="https://coffeesforclosures/index.xml">Subscribe</a>
+	
+</nav>
+
+
+    <div class="profile">
+    <section id="wrapper">
+        <header id="header">
+            <h1>Coffee&#39;s for Closures</h1>
+            
+        </header>
+    </section>
+</div>
+
+
+    <section id="wrapper" class="home">
+        <ul id="post-list">
+    
+    
+        
+            <li>
+                <aside class="dates">Oct 3</aside>
+                <a href='https://coffeesforclosures/posts/2014-10-03-many-to-many-joins-with-ecto-and-elixir/'>
+                    Many to Many joins with Ecto and Elixir
+                    
+                        
+                            <h2>Ecto is an DSL for writing queries and interacting with databases in Elixir. It has a style similar to ActiveRecord, but since there aren’t objects, you can’t really call it an ORM.
+Like ActiveRecord, it has has_many and belongs_to, but it doesn’t have has_many :through yet. Here is how I implemented a DAG using a many-to-many join in Ecto anyways
+The basic idea is I have a Nodes table. And each Node can have multiple parents and multiple children.</h2>
+                        
+                    
+                </a>
+            </li>
+        
+    
+    
+        
+            <li>
+                <aside class="dates">Jan 12</aside>
+                <a href='https://coffeesforclosures/posts/2013-01-12-named-tasks-in-leader_cron/'>
+                    named tasks in leader_cron
+                    
+                        
+                            <h2>I’ve been using erlcron to run scheduled tasks, but since each node in an erlang cluster would have its own copy, it didn’t help with having the tasks run in only one location per-cluster. Then I found leader_cron, which uses gen_leader to elect a single node in the cluster to run the tasks.
+This is great stuff, but it doesn’t solve the problem of which node should schedule the task. For this purpose, I added the feature of named tasks, so that if you add a task with the same name, you receive a {error, already_exists} response.</h2>
+                        
+                    
+                </a>
+            </li>
+        
+    
+    
+        
+            <li>
+                <aside class="dates">Apr 14</aside>
+                <a href='https://coffeesforclosures/posts/2012-04-14-agile-and-hyperproductivity/'>
+                    Agile and Hyperproductivity
+                    
+                        
+                            <h2>I was wondering around my office, which is housed in a co-working location, when I saw on a whiteboard in another company’s office, “Agile: Hyperproductive!” As an engineer type, I had to restrain myself from going in and telling them they were wrong, but I do have some thoughts on the subject.
+I like Scrum. I think in the future for most teams, Scrum and similar processes won’t be controversial. They’ll just be how software engineers do things.</h2>
+                        
+                    
+                </a>
+            </li>
+        
+    
+    
+        
+            <li>
+                <aside class="dates">Oct 27</aside>
+                <a href='https://coffeesforclosures/posts/2011-10-27-require-js-and-haml/'>
+                    Require.js and HAML
+                    
+                        
+                            <h2>I’ve been having very good luck with requirehaml. I had been looking around at various templates, but none of them seemed to support compiling before delivery to the client. This script does that and compiles them into easily verifiable javascript files, packaged up to be included with my existing require.js AMD build.
+So far, I haven’t actually had that much HTML to include, but hopefully that will change as my project takes shape and grows.</h2>
+                        
+                    
+                </a>
+            </li>
+        
+    
+    
+        
+            <li>
+                <aside class="dates">Oct 19</aside>
+                <a href='https://coffeesforclosures/posts/2011-10-19-amd-modules-and-web-developers/'>
+                    AMD modules and web developers
+                    
+                        
+                            <h2>Now that require.js has reached 1.0, it’s probably time to start shouting its praises from every rooftop so that javascript library authors include support for it. Require.js is an implementation of the AMD draft specification which adds simple module support for javascript in the browser. This means no more namespace pollution (if you use it properly).
+Unfortunately, we’re talking about web developers who don’t seem to understand basic principals like avoiding namespace pollution.</h2>
+                        
+                    
+                </a>
+            </li>
+        
+    
+    
+        
+            <li>
+                <aside class="dates">Oct 13</aside>
+                <a href='https://coffeesforclosures/posts/2011-10-13-new-gitx-fork/'>
+                    New GitX fork
+                    
+                        
+                            <h2>It’s good to see that someone has taken up the GitX mantle, since the original hasn’t been updated since September, 2009. There have been a bunch of forks, notably brotherbard‘s fork.
+But this is the first time I’ve seen active development with actual releases. Nice to know I’m not relying on abandoned software.</h2>
+                        
+                    
+                </a>
+            </li>
+        
+    
+    
+        
+            <li>
+                <aside class="dates">Sep 28</aside>
+                <a href='https://coffeesforclosures/posts/2011-09-28-how-to-setup-a-pretty-good-dev-environment-on-the-mac/'>
+                    How to setup a pretty good dev environment on the mac
+                    
+                        
+                            <h2>(This was a quick write up for a coworker, but others might find it useful)
+This assumes you have XCode. I mean, really now.
+First thing to do is install mac homebrew. It’s a package manager of useful open source software. You install it by pasting into the terminal:
+/usr/bin/ruby -e &#34;$(curl -fsSL https://raw.github.com/gist/323731)&#34;  then just to make sure it’s working, run:
+brew install -v git  Next we want to install the node package manager.</h2>
+                        
+                    
+                </a>
+            </li>
+        
+    
+    
+        
+            <li>
+                <aside class="dates">Jan 11</aside>
+                <a href='https://coffeesforclosures/posts/2009-01-11-new-books/'>
+                    New books!
+                    
+                        
+                            <h2>I bought a couple books today. I picked up Managing Humans and Real World Haskell.
+Managing Humans really needed a better editor. Maybe I’m not in the manager mindframe enough to understand it, but it jerked around and contradicted itself.
+I’m hoping the Haskell book isn’t as disappointing. I’ve been wanting to understand functional programming for a long time, but never got around to picking up a book that explained how to model real programs that rely on input from the outside world.</h2>
+                        
+                    
+                </a>
+            </li>
+        
+    
+    
+        
+            <li>
+                <aside class="dates">Dec 26</aside>
+                <a href='https://coffeesforclosures/posts/2008-12-26-what-the-hell-autoconf/'>
+                    What the hell, autoconf?
+                    
+                        
+                            <h2>There’s a new autoconf out, autoconf-2.63. It continues autoconf’s fine tradition of having the suckiest release schedule and quality of the GNU toolkit. You would think that they would increment the major number whenever they release a non-backwards compatible release, but they don’t for shear perversity. I guess 2.63 just rolls off the tongue, and I can’t blame them. The ridiculousness of having to test for different versions of your platform configuration tool boggles me.</h2>
+                        
+                    
+                </a>
+            </li>
+        
+    
+    
+        
+            <li>
+                <aside class="dates">Jul 10</aside>
+                <a href='https://coffeesforclosures/posts/2008-07-10-there-but-for-the-grace-of-god/'>
+                    there but for the grace of god&amp;#8230;
+                    
+                        
+                            <h2>I’m so glad I’m not an Apple Release Engineer today. Four major releases today. iPhone 3G, iPhone Firmware 2.0, MobileMe, and iTunes 7.7.
+It’s a huge task to synchronize all those releases and it eats up company resources like crazy. You have to have enough people to focus on each task separately.
+MobileMe still isn’t working right. They’ve been extending the maintenance downtime further and further.
+They have my sympathies.</h2>
+                        
+                    
+                </a>
+            </li>
+        
+    
+</ul>
+
+        <nav id="post-nav">
+    
+        
+        
+        <span class="next">
+            <a href="/page/2/">
+                Older Posts <span class="arrow">→</span>
+            </a>
+        </span>
+        
+    
+</nav>
+        <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.github.com/taybin">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> Taybin Rutkin
+    
+    </p>
+    <p class="small">
+        Powered by <a href="http://www.gohugo.io/">Hugo</a> Theme By <a href="https://github.com/nodejh/hugo-theme-cactus-plus">nodejh</a>
+    </p>
+</footer>
+
+    </section>
+
+    <script src="https://coffeesforclosures/js/jquery-3.3.1.min.js"></script>
+<script src="https://coffeesforclosures/js/main.js"></script>
+<script src="https://coffeesforclosures/js/highlight.min.js"></script>
+
+<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+
+
+
+
+<script>
+    commentBox('5650452045627392-proj');
+</script>
+
+
+</body>
+
+</html>
