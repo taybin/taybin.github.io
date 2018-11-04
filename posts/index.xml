@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Coffee&#39;s for Closures</title>
-    <link>https://coffeesforclosures/posts/</link>
+    <link>https://taybin.github.io/posts/</link>
     <description>Recent content in Posts on Coffee&#39;s for Closures</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 03 Oct 2014 09:48:03 +0000</lastBuildDate>
     
-	<atom:link href="https://coffeesforclosures/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://taybin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Many to Many joins with Ecto and Elixir</title>
-      <link>https://coffeesforclosures/posts/2014-10-03-many-to-many-joins-with-ecto-and-elixir/</link>
+      <link>https://taybin.github.io/posts/2014-10-03-many-to-many-joins-with-ecto-and-elixir/</link>
       <pubDate>Fri, 03 Oct 2014 09:48:03 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2014-10-03-many-to-many-joins-with-ecto-and-elixir/</guid>
+      <guid>https://taybin.github.io/posts/2014-10-03-many-to-many-joins-with-ecto-and-elixir/</guid>
       <description>Ecto is an DSL for writing queries and interacting with databases in Elixir. It has a style similar to ActiveRecord, but since there aren’t objects, you can’t really call it an ORM.
 Like ActiveRecord, it has has_many and belongs_to, but it doesn’t have has_many :through yet. Here is how I implemented a DAG using a many-to-many join in Ecto anyways
 The basic idea is I have a Nodes table. And each Node can have multiple parents and multiple children.</description>
@@ -24,60 +24,60 @@ The basic idea is I have a Nodes table. And each Node can have multiple parents 
     
     <item>
       <title>named tasks in leader_cron</title>
-      <link>https://coffeesforclosures/posts/2013-01-12-named-tasks-in-leader_cron/</link>
+      <link>https://taybin.github.io/posts/2013-01-12-named-tasks-in-leader_cron/</link>
       <pubDate>Sat, 12 Jan 2013 23:35:29 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2013-01-12-named-tasks-in-leader_cron/</guid>
+      <guid>https://taybin.github.io/posts/2013-01-12-named-tasks-in-leader_cron/</guid>
       <description>I&amp;#8217;ve been using erlcron to run scheduled tasks, but since each node in an erlang cluster would have its own copy, it didn&amp;#8217;t help with having the tasks run in only one location per-cluster. Then I found leader_cron, which uses gen_leader to elect a single node in the cluster to run the tasks.
 This is great stuff, but it doesn&amp;#8217;t solve the problem of which node should schedule the task. For this purpose, I added the feature of named tasks, so that if you add a task with the same name, you receive a {error, already_exists} response.</description>
     </item>
     
     <item>
       <title>Agile and Hyperproductivity</title>
-      <link>https://coffeesforclosures/posts/2012-04-14-agile-and-hyperproductivity/</link>
+      <link>https://taybin.github.io/posts/2012-04-14-agile-and-hyperproductivity/</link>
       <pubDate>Sat, 14 Apr 2012 22:10:18 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2012-04-14-agile-and-hyperproductivity/</guid>
+      <guid>https://taybin.github.io/posts/2012-04-14-agile-and-hyperproductivity/</guid>
       <description>I was wondering around my office, which is housed in a co-working location, when I saw on a whiteboard in another company&amp;#8217;s office, &amp;#8220;Agile: Hyperproductive!&amp;#8221; As an engineer type, I had to restrain myself from going in and telling them they were wrong, but I do have some thoughts on the subject.
 I like Scrum. I think in the future for most teams, Scrum and similar processes won&amp;#8217;t be controversial. They&amp;#8217;ll just be how software engineers do things.</description>
     </item>
     
     <item>
       <title>Require.js and HAML</title>
-      <link>https://coffeesforclosures/posts/2011-10-27-require-js-and-haml/</link>
+      <link>https://taybin.github.io/posts/2011-10-27-require-js-and-haml/</link>
       <pubDate>Thu, 27 Oct 2011 22:08:24 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2011-10-27-require-js-and-haml/</guid>
+      <guid>https://taybin.github.io/posts/2011-10-27-require-js-and-haml/</guid>
       <description>I&amp;#8217;ve been having very good luck with requirehaml. I had been looking around at various templates, but none of them seemed to support compiling before delivery to the client. This script does that and compiles them into easily verifiable javascript files, packaged up to be included with my existing require.js AMD build.
 So far, I haven&amp;#8217;t actually had that much HTML to include, but hopefully that will change as my project takes shape and grows.</description>
     </item>
     
     <item>
       <title>AMD modules and web developers</title>
-      <link>https://coffeesforclosures/posts/2011-10-19-amd-modules-and-web-developers/</link>
+      <link>https://taybin.github.io/posts/2011-10-19-amd-modules-and-web-developers/</link>
       <pubDate>Wed, 19 Oct 2011 22:07:11 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2011-10-19-amd-modules-and-web-developers/</guid>
+      <guid>https://taybin.github.io/posts/2011-10-19-amd-modules-and-web-developers/</guid>
       <description>Now that require.js has reached 1.0, it&amp;#8217;s probably time to start shouting its praises from every rooftop so that javascript library authors include support for it. Require.js is an implementation of the AMD draft specification which adds simple module support for javascript in the browser. This means no more namespace pollution (if you use it properly).
 Unfortunately, we&amp;#8217;re talking about web developers who don&amp;#8217;t seem to understand basic principals like avoiding namespace pollution.</description>
     </item>
     
     <item>
       <title>New GitX fork</title>
-      <link>https://coffeesforclosures/posts/2011-10-13-new-gitx-fork/</link>
+      <link>https://taybin.github.io/posts/2011-10-13-new-gitx-fork/</link>
       <pubDate>Thu, 13 Oct 2011 22:06:16 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2011-10-13-new-gitx-fork/</guid>
+      <guid>https://taybin.github.io/posts/2011-10-13-new-gitx-fork/</guid>
       <description>It&amp;#8217;s good to see that someone has taken up the GitX mantle, since the original hasn&amp;#8217;t been updated since September, 2009. There have been a bunch of forks, notably brotherbard&amp;#8216;s fork.
 But this is the first time I&amp;#8217;ve seen active development with actual releases. Nice to know I&amp;#8217;m not relying on abandoned software.</description>
     </item>
     
     <item>
       <title>How to setup a pretty good dev environment on the mac</title>
-      <link>https://coffeesforclosures/posts/2011-09-28-how-to-setup-a-pretty-good-dev-environment-on-the-mac/</link>
+      <link>https://taybin.github.io/posts/2011-09-28-how-to-setup-a-pretty-good-dev-environment-on-the-mac/</link>
       <pubDate>Wed, 28 Sep 2011 22:04:05 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2011-09-28-how-to-setup-a-pretty-good-dev-environment-on-the-mac/</guid>
+      <guid>https://taybin.github.io/posts/2011-09-28-how-to-setup-a-pretty-good-dev-environment-on-the-mac/</guid>
       <description>(This was a quick write up for a coworker, but others might find it useful)
 This assumes you have XCode. I mean, really now.
 First thing to do is install mac homebrew. It&amp;#8217;s a package manager of useful open source software. You install it by pasting into the terminal:
@@ -87,10 +87,10 @@ brew install -v git  Next we want to install the node package manager.</descript
     
     <item>
       <title>New books!</title>
-      <link>https://coffeesforclosures/posts/2009-01-11-new-books/</link>
+      <link>https://taybin.github.io/posts/2009-01-11-new-books/</link>
       <pubDate>Sun, 11 Jan 2009 23:02:38 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2009-01-11-new-books/</guid>
+      <guid>https://taybin.github.io/posts/2009-01-11-new-books/</guid>
       <description>I bought a couple books today. I picked up Managing Humans and Real World Haskell.
 Managing Humans really needed a better editor. Maybe I&amp;#8217;m not in the manager mindframe enough to understand it, but it jerked around and contradicted itself.
 I&amp;#8217;m hoping the Haskell book isn&amp;#8217;t as disappointing. I&amp;#8217;ve been wanting to understand functional programming for a long time, but never got around to picking up a book that explained how to model real programs that rely on input from the outside world.</description>
@@ -98,19 +98,19 @@ I&amp;#8217;m hoping the Haskell book isn&amp;#8217;t as disappointing. I&amp;#8
     
     <item>
       <title>What the hell, autoconf?</title>
-      <link>https://coffeesforclosures/posts/2008-12-26-what-the-hell-autoconf/</link>
+      <link>https://taybin.github.io/posts/2008-12-26-what-the-hell-autoconf/</link>
       <pubDate>Fri, 26 Dec 2008 23:00:50 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2008-12-26-what-the-hell-autoconf/</guid>
+      <guid>https://taybin.github.io/posts/2008-12-26-what-the-hell-autoconf/</guid>
       <description>There&amp;#8217;s a new autoconf out, autoconf-2.63. It continues autoconf&amp;#8217;s fine tradition of having the suckiest release schedule and quality of the GNU toolkit. You would think that they would increment the major number whenever they release a non-backwards compatible release, but they don&amp;#8217;t for shear perversity. I guess 2.63 just rolls off the tongue, and I can&amp;#8217;t blame them. The ridiculousness of having to test for different versions of your platform configuration tool boggles me.</description>
     </item>
     
     <item>
       <title>there but for the grace of god&amp;#8230;</title>
-      <link>https://coffeesforclosures/posts/2008-07-10-there-but-for-the-grace-of-god/</link>
+      <link>https://taybin.github.io/posts/2008-07-10-there-but-for-the-grace-of-god/</link>
       <pubDate>Thu, 10 Jul 2008 22:00:17 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2008-07-10-there-but-for-the-grace-of-god/</guid>
+      <guid>https://taybin.github.io/posts/2008-07-10-there-but-for-the-grace-of-god/</guid>
       <description>I&amp;#8217;m so glad I&amp;#8217;m not an Apple Release Engineer today. Four major releases today. iPhone 3G, iPhone Firmware 2.0, MobileMe, and iTunes 7.7.
 It&amp;#8217;s a huge task to synchronize all those releases and it eats up company resources like crazy. You have to have enough people to focus on each task separately.
 MobileMe still isn&amp;#8217;t working right. They&amp;#8217;ve been extending the maintenance downtime further and further.
@@ -119,29 +119,29 @@ They have my sympathies.</description>
     
     <item>
       <title>goodbye Carbon and good riddence</title>
-      <link>https://coffeesforclosures/posts/2008-07-07-goodbye-carbon-and-good-riddence/</link>
+      <link>https://taybin.github.io/posts/2008-07-07-goodbye-carbon-and-good-riddence/</link>
       <pubDate>Mon, 07 Jul 2008 21:59:31 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2008-07-07-goodbye-carbon-and-good-riddence/</guid>
+      <guid>https://taybin.github.io/posts/2008-07-07-goodbye-carbon-and-good-riddence/</guid>
       <description>From the documentation for GetProcessInformation()
  You need to specify values for the processInfoLength, processName, and processAppSpec fields of the process information structure. Specify the length of the process information structure in the processInfoLength field. If you do not want information returned in the processName and processAppSpec fields, specify NULL for these fields. Otherwise, allocate at least 32 bytes of storage for the string pointed to by the processName field and, in the processAppSpec field, specify a pointer to an FSSpec structure.</description>
     </item>
     
     <item>
       <title>History of AppleScript&amp;#8217;s Development</title>
-      <link>https://coffeesforclosures/posts/2008-06-05-history-of-applescripts-development/</link>
+      <link>https://taybin.github.io/posts/2008-06-05-history-of-applescripts-development/</link>
       <pubDate>Thu, 05 Jun 2008 21:58:25 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2008-06-05-history-of-applescripts-development/</guid>
+      <guid>https://taybin.github.io/posts/2008-06-05-history-of-applescripts-development/</guid>
       <description>I thought this paper was pretty interesting, since AppleScript is my favorite language to hate. An interesting, but failed experiment. I entirely support its aims though. The problem of how to replace command line pipes in a GUI environment is still an interesting one.</description>
     </item>
     
     <item>
       <title>Blurmate</title>
-      <link>https://coffeesforclosures/posts/2008-06-05-blurmate/</link>
+      <link>https://taybin.github.io/posts/2008-06-05-blurmate/</link>
       <pubDate>Thu, 05 Jun 2008 21:57:45 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2008-06-05-blurmate/</guid>
+      <guid>https://taybin.github.io/posts/2008-06-05-blurmate/</guid>
       <description>This is pretty cool. A way to set the opacity on your Textmate window.
 I&amp;#8217;m usually against this sort of transparency-everywhere mentality; it reminds me of the Enlightenment window manager for Linux.
 But this works really nicely.</description>
@@ -149,40 +149,40 @@ But this works really nicely.</description>
     
     <item>
       <title>ZSH bundle and scripts for Textmate</title>
-      <link>https://coffeesforclosures/posts/2008-05-29-zsh-bundle-and-scripts-for-textmate/</link>
+      <link>https://taybin.github.io/posts/2008-05-29-zsh-bundle-and-scripts-for-textmate/</link>
       <pubDate>Thu, 29 May 2008 21:57:09 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2008-05-29-zsh-bundle-and-scripts-for-textmate/</guid>
+      <guid>https://taybin.github.io/posts/2008-05-29-zsh-bundle-and-scripts-for-textmate/</guid>
       <description>I found this today and it&amp;#8217;s too useful to not link to.
  A bundle for editing zsh scripts A terminal command for going to the directory the front textmate document resides in  </description>
     </item>
     
     <item>
       <title>bugtracker recommendations</title>
-      <link>https://coffeesforclosures/posts/2008-05-28-bugtracker-recommendations/</link>
+      <link>https://taybin.github.io/posts/2008-05-28-bugtracker-recommendations/</link>
       <pubDate>Wed, 28 May 2008 21:56:14 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2008-05-28-bugtracker-recommendations/</guid>
+      <guid>https://taybin.github.io/posts/2008-05-28-bugtracker-recommendations/</guid>
       <description>Panic is looking for a bugtracker.
 I&amp;#8217;ve used Mantis to good effect. You can check out how Ardour uses it here.</description>
     </item>
     
     <item>
       <title>Defactoring</title>
-      <link>https://coffeesforclosures/posts/2008-05-13-defactoring/</link>
+      <link>https://taybin.github.io/posts/2008-05-13-defactoring/</link>
       <pubDate>Tue, 13 May 2008 21:55:29 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2008-05-13-defactoring/</guid>
+      <guid>https://taybin.github.io/posts/2008-05-13-defactoring/</guid>
       <description>You&amp;#8217;ve read Refactoring. You&amp;#8217;ve seen Prefactoring on the bookstore&amp;#8217;s shelf. Well, after you&amp;#8217;ve fact&amp;#8217;d it all up, it&amp;#8217;s time for Defactoring.
 My new book, which introduces such techniques as overriding your framework&amp;#8217;s core eventloop and running dynamic_cast&amp;lt;&amp;gt; on each widget that passes through to see if it&amp;#8217;s the widget you&amp;#8217;re looking for.</description>
     </item>
     
     <item>
       <title>Red Sweater Blog &amp;#8211; It Should Be Free</title>
-      <link>https://coffeesforclosures/posts/2008-03-27-red-sweater-blog-it-should-be-free/</link>
+      <link>https://taybin.github.io/posts/2008-03-27-red-sweater-blog-it-should-be-free/</link>
       <pubDate>Thu, 27 Mar 2008 21:54:50 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2008-03-27-red-sweater-blog-it-should-be-free/</guid>
+      <guid>https://taybin.github.io/posts/2008-03-27-red-sweater-blog-it-should-be-free/</guid>
       <description>Red Sweater Blog &amp;#8211; It Should Be Free
 I don&amp;#8217;t care if someone charges for an app or not. But one thing that has always puzzled me is why there are so many free (as in beer) applications for the mac that aren&amp;#8217;t also open source. If you&amp;#8217;re giving your application away for free, why not show the source too?
 My only guess is that the default-to-open-source attitude isn&amp;#8217;t as ingrained in the mac world as is it elsewhere.</description>
@@ -190,19 +190,19 @@ My only guess is that the default-to-open-source attitude isn&amp;#8217;t as ing
     
     <item>
       <title>gpl craziness</title>
-      <link>https://coffeesforclosures/posts/2007-12-10-gpl-craziness/</link>
+      <link>https://taybin.github.io/posts/2007-12-10-gpl-craziness/</link>
       <pubDate>Mon, 10 Dec 2007 22:53:20 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-12-10-gpl-craziness/</guid>
+      <guid>https://taybin.github.io/posts/2007-12-10-gpl-craziness/</guid>
       <description>Sometimes, late at night when the moon is full and no one is around, I&amp;#8217;ll download the Emacs source. Then, I&amp;#8217;ll make a single change. Maybe rename a variable or a function, or comment something out. Then, I&amp;#8217;ll recompile it and put the binary on my website for people to download. But I won&amp;#8217;t provide the source of my changes! Muahahahaha.</description>
     </item>
     
     <item>
       <title>whoa guys</title>
-      <link>https://coffeesforclosures/posts/2007-11-21-whoa-guys/</link>
+      <link>https://taybin.github.io/posts/2007-11-21-whoa-guys/</link>
       <pubDate>Wed, 21 Nov 2007 22:52:09 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-11-21-whoa-guys/</guid>
+      <guid>https://taybin.github.io/posts/2007-11-21-whoa-guys/</guid>
       <description>In Vacuous Virtuoso&amp;#8217;s CTGradient code bloat article, he showed how easy it was to trim a 1300 line 3rd party piece of code down to 30 lines by trimming the unneeded code.
 Super. We should all look at what code we use and whether it is inefficient or not.
 The problem is he didn&amp;#8217;t include any numbers beyond the LOCs. It would have been nice to have had some before and after numbers on execution speed, binary size, and memory usage.</description>
@@ -210,19 +210,19 @@ The problem is he didn&amp;#8217;t include any numbers beyond the LOCs. It would
     
     <item>
       <title>Threading in Mail-3.0</title>
-      <link>https://coffeesforclosures/posts/2007-10-30-threading-in-mail-3-0/</link>
+      <link>https://taybin.github.io/posts/2007-10-30-threading-in-mail-3-0/</link>
       <pubDate>Tue, 30 Oct 2007 21:50:47 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-10-30-threading-in-mail-3-0/</guid>
+      <guid>https://taybin.github.io/posts/2007-10-30-threading-in-mail-3-0/</guid>
       <description>They finally fixed threading. You heard it here first.</description>
     </item>
     
     <item>
       <title>thinking outside the box</title>
-      <link>https://coffeesforclosures/posts/2007-10-30-thinking-outside-the-box/</link>
+      <link>https://taybin.github.io/posts/2007-10-30-thinking-outside-the-box/</link>
       <pubDate>Tue, 30 Oct 2007 21:50:09 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-10-30-thinking-outside-the-box/</guid>
+      <guid>https://taybin.github.io/posts/2007-10-30-thinking-outside-the-box/</guid>
       <description>Gruber isn&amp;#8217;t very good at imagining other people&amp;#8217;s computing needs.
  No important software for the Mac depends on Java.
  I think he meant &amp;#8220;I don&amp;#8217;t have any important software that depends on Java&amp;#8221;. There. Fixed that for you.
@@ -232,20 +232,20 @@ What I like about the most about his subsequent backpedaling is that it avoids t
     
     <item>
       <title>Taskpaper?</title>
-      <link>https://coffeesforclosures/posts/2007-10-24-taskpaper/</link>
+      <link>https://taybin.github.io/posts/2007-10-24-taskpaper/</link>
       <pubDate>Wed, 24 Oct 2007 21:48:45 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-10-24-taskpaper/</guid>
+      <guid>https://taybin.github.io/posts/2007-10-24-taskpaper/</guid>
       <description>Taskpaper has a nice idea, using a plaintext microformat to store TODO lists. Seems unfortunate that it&amp;#8217;s getting so much press a week before Leopard comes out with the same feature with presumably the same implementation.
 I&amp;#8217;ve long thought that TODO lists were overdue for an IMAP style, access this anywhere from any client, protocol. Nice to see Apple implementing it and it looks like they&amp;#8217;re skipping the design-a-new-protocol phase and just using IMAP for the TODO list.</description>
     </item>
     
     <item>
       <title>Rails vs Seaside</title>
-      <link>https://coffeesforclosures/posts/2007-09-10-rails-vs-seaside/</link>
+      <link>https://taybin.github.io/posts/2007-09-10-rails-vs-seaside/</link>
       <pubDate>Mon, 10 Sep 2007 21:47:43 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-09-10-rails-vs-seaside/</guid>
+      <guid>https://taybin.github.io/posts/2007-09-10-rails-vs-seaside/</guid>
       <description>I came across an interesting post about SmallTalk&amp;#8217;s Seaside versus Ruby&amp;#8217;s Rails.
 The meat is in the comments which are very polite and informative. I&amp;#8217;ve only played with Squeak once back in college so I didn&amp;#8217;t really grasp the whole editing-live-objects-which-don&amp;#8217;t-live-in-files thing.
 It sounds pretty neat and pretty powerful.</description>
@@ -253,49 +253,49 @@ It sounds pretty neat and pretty powerful.</description>
     
     <item>
       <title>iPhone price cut</title>
-      <link>https://coffeesforclosures/posts/2007-09-09-iphone-price-cut/</link>
+      <link>https://taybin.github.io/posts/2007-09-09-iphone-price-cut/</link>
       <pubDate>Sun, 09 Sep 2007 21:46:42 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-09-09-iphone-price-cut/</guid>
+      <guid>https://taybin.github.io/posts/2007-09-09-iphone-price-cut/</guid>
       <description>Just wanted to say that Joe sounds like a lot of fun. He must be a hit at parties. Isn&amp;#8217;t he wasting time that could be spent re-reading Atlas Shrugged?</description>
     </item>
     
     <item>
       <title>Apple, iPhones, and Starbucks</title>
-      <link>https://coffeesforclosures/posts/2007-09-06-apple-iphones-and-starbucks/</link>
+      <link>https://taybin.github.io/posts/2007-09-06-apple-iphones-and-starbucks/</link>
       <pubDate>Thu, 06 Sep 2007 21:45:49 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-09-06-apple-iphones-and-starbucks/</guid>
+      <guid>https://taybin.github.io/posts/2007-09-06-apple-iphones-and-starbucks/</guid>
       <description>I paid attention to Apple&amp;#8217;s The Beat Goes On event from tuesday. Everything looks pretty good. Except for the lame Starbucks integration into the iTunes Store.
 It would be different if they had some standard which any store which plays music could appear on the iPod/iPhone for purchasing. But I don&amp;#8217;t like being told which stores I should shop at. They might as well have put a big McDonalds logo inside the software.</description>
     </item>
     
     <item>
       <title>The Power of Binary Searching</title>
-      <link>https://coffeesforclosures/posts/2007-08-21-the-power-of-binary-searching/</link>
+      <link>https://taybin.github.io/posts/2007-08-21-the-power-of-binary-searching/</link>
       <pubDate>Tue, 21 Aug 2007 21:44:45 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-08-21-the-power-of-binary-searching/</guid>
+      <guid>https://taybin.github.io/posts/2007-08-21-the-power-of-binary-searching/</guid>
       <description>I always knew that binary searching was fast, O(log2) and all that. But when you have to run it by hand over 3000 subversion revisions, looking for the place where you introduced a memory leak, and after four steps you&amp;#8217;ve eliminated 93% of the search space, you get a new appreciation for it.
 There are some tools out there for automating these searches through subversion. They didn&amp;#8217;t fit our problem though because determining whether we were showing a memory leak was fuzzy.</description>
     </item>
     
     <item>
       <title>watch out with the iLife &amp;#8217;08 install</title>
-      <link>https://coffeesforclosures/posts/2007-08-09-watch-out-with-the-ilife-08-install/</link>
+      <link>https://taybin.github.io/posts/2007-08-09-watch-out-with-the-ilife-08-install/</link>
       <pubDate>Thu, 09 Aug 2007 21:44:02 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-08-09-watch-out-with-the-ilife-08-install/</guid>
+      <guid>https://taybin.github.io/posts/2007-08-09-watch-out-with-the-ilife-08-install/</guid>
       <description>After you install it, and launch iChat, it&amp;#8217;ll run the iChat config program. After that, it&amp;#8217;ll ask you about syncing your Address Book. Don&amp;#8217;t do this. I just lost all my contacts from my address book. It then deleted them from my iPhone.
 All in all, this hasn&amp;#8217;t been a good week between me and Apple.</description>
     </item>
     
     <item>
       <title>iMovie &amp;#8217;08: the reviewing</title>
-      <link>https://coffeesforclosures/posts/2007-08-09-imovie-08-the-reviewing/</link>
+      <link>https://taybin.github.io/posts/2007-08-09-imovie-08-the-reviewing/</link>
       <pubDate>Thu, 09 Aug 2007 21:43:12 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-08-09-imovie-08-the-reviewing/</guid>
+      <guid>https://taybin.github.io/posts/2007-08-09-imovie-08-the-reviewing/</guid>
       <description>I&amp;#8217;m just staring at iMovie &amp;#8217;08 and I gotta say, the interface is a mess. You&amp;#8217;ve got this one button that reorders arrangement of the panes in the window. The animation is nice, but is that option really needed? I don&amp;#8217;t see a way to hide the library even though it takes up half the window.
 Likes
  The scrubbing is pretty nice I like the idea of having a cross-project video clip library  Dislikes</description>
@@ -303,10 +303,10 @@ Likes
     
     <item>
       <title>Bjorne Stroustrup lecture</title>
-      <link>https://coffeesforclosures/posts/2007-08-09-bjorne-stroustrup-lecture/</link>
+      <link>https://taybin.github.io/posts/2007-08-09-bjorne-stroustrup-lecture/</link>
       <pubDate>Thu, 09 Aug 2007 21:42:27 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-08-09-bjorne-stroustrup-lecture/</guid>
+      <guid>https://taybin.github.io/posts/2007-08-09-bjorne-stroustrup-lecture/</guid>
       <description>I saw Bjorne Stroustrup give a lecture as part of the New York City Google TechTalks. Pretty interesting stuff. More updates to the language that I was expecting. Some much desired features too.
 Two downsides:
  the language is going to be that much more complicated. I&amp;#8217;m looking at you, separate meta-type system for controlling templates it took so long for the STL and templates to get good enough support, I doubt I&amp;#8217;ll see any of this until 2015  </description>
@@ -314,10 +314,10 @@ Two downsides:
     
     <item>
       <title>iMovie &amp;#8217;08 trepidations</title>
-      <link>https://coffeesforclosures/posts/2007-08-07-imovie-08-trepidations/</link>
+      <link>https://taybin.github.io/posts/2007-08-07-imovie-08-trepidations/</link>
       <pubDate>Tue, 07 Aug 2007 21:41:25 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-08-07-imovie-08-trepidations/</guid>
+      <guid>https://taybin.github.io/posts/2007-08-07-imovie-08-trepidations/</guid>
       <description>John Gruber writes:
  I totally believe Jobs’s story that it’s a complete re-write. The old iMovie was a good app, as a sort of stripped-down consumer-level Final Cut — but it still wasn’t any good for just putting clips together in a few minutes.
  This makes very little sense to me. What about those of us who want to spend time working on their movies but who want to avoid Final Cut Pro/Express?</description>
@@ -325,87 +325,87 @@ Two downsides:
     
     <item>
       <title>AppleEvents: Apple&amp;#8217;s worst documented API?</title>
-      <link>https://coffeesforclosures/posts/2007-07-18-appleevents-apples-worst-documented-api/</link>
+      <link>https://taybin.github.io/posts/2007-07-18-appleevents-apples-worst-documented-api/</link>
       <pubDate>Wed, 18 Jul 2007 21:37:40 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-07-18-appleevents-apples-worst-documented-api/</guid>
+      <guid>https://taybin.github.io/posts/2007-07-18-appleevents-apples-worst-documented-api/</guid>
       <description>If you are trying to register a callback on getting a URL passed to your program through AppleEvents, don&amp;#8217;t use the documented kAEInternetSuite and kAEISGetURL enums. They are defined as &amp;#8216;gurl&amp;#8217;, but the actual value passed to your program is &amp;#8216;GURL&amp;#8217;. From what I can tell, everyone defines their own enums because this is well known.
 Apple can&amp;#8217;t fix it though, because it would break everyone&amp;#8217;s software. So they keep documenting it as &amp;#8216;gurl&amp;#8217;, and we keep redefining it to the actual value.</description>
     </item>
     
     <item>
       <title>Enough with the Jackass-ery</title>
-      <link>https://coffeesforclosures/posts/2007-07-15-enough-with-the-jackass-ery/</link>
+      <link>https://taybin.github.io/posts/2007-07-15-enough-with-the-jackass-ery/</link>
       <pubDate>Sun, 15 Jul 2007 21:36:27 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-07-15-enough-with-the-jackass-ery/</guid>
+      <guid>https://taybin.github.io/posts/2007-07-15-enough-with-the-jackass-ery/</guid>
       <description>John Gruber attacks someone for criticizing the iPod. In this case, a mutual funds analyst who says that it would be better to invest the money instead of buying an iPod. Which is a good point to make. Too many people fritter their money away on gadgets instead of investing it.
 Not sure why that qualifies the man as a &amp;#8220;jackass&amp;#8221;, but Gruber throws that term around a lot anyways.</description>
     </item>
     
     <item>
       <title>iLife &amp;#8217;08</title>
-      <link>https://coffeesforclosures/posts/2007-07-08-ilife-08/</link>
+      <link>https://taybin.github.io/posts/2007-07-08-ilife-08/</link>
       <pubDate>Sun, 08 Jul 2007 21:38:55 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-07-08-ilife-08/</guid>
+      <guid>https://taybin.github.io/posts/2007-07-08-ilife-08/</guid>
       <description>While the new iLife &amp;#8217;08 software looks really good feature-wise (I&amp;#8217;m going to pick it up today), the really important thing to watch for is what style the interfaces have. They&amp;#8217;re the only clue MacOS X developers have anymore to what our software should look like.</description>
     </item>
     
     <item>
       <title>No flash for iPhone</title>
-      <link>https://coffeesforclosures/posts/2007-07-07-no-flash-for-iphone/</link>
+      <link>https://taybin.github.io/posts/2007-07-07-no-flash-for-iphone/</link>
       <pubDate>Sat, 07 Jul 2007 21:35:16 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-07-07-no-flash-for-iphone/</guid>
+      <guid>https://taybin.github.io/posts/2007-07-07-no-flash-for-iphone/</guid>
       <description>I don&amp;#8217;t want flash for the iPhone. People forget about how CPU heavy flash is. I don&amp;#8217;t want a bunch of stupid punch the monkey ads running down my battery everytime I load a webpage. Many ads nowadays are Flash based and having all these tiny banner ad programs running in the background will be too much. The battery is already tottering on the edge of annoyingly frequent recharges.</description>
     </item>
     
     <item>
       <title>Visual Studio 2005 Express&amp;#8230;</title>
-      <link>https://coffeesforclosures/posts/2007-07-05-visual-studio-2005-express/</link>
+      <link>https://taybin.github.io/posts/2007-07-05-visual-studio-2005-express/</link>
       <pubDate>Thu, 05 Jul 2007 21:34:40 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-07-05-visual-studio-2005-express/</guid>
+      <guid>https://taybin.github.io/posts/2007-07-05-visual-studio-2005-express/</guid>
       <description>sucks. The installation process for getting a build environment is the most painful series of steps I have ever taken in an install. You have to download the program. Then you download the SDKs. Then you have to edit the paths in the IDE. Then you have to open the project template files and comment out various obscure configurations if you want to have a workable setup.
 Why are these many steps necessary?</description>
     </item>
     
     <item>
       <title>iPhone costs</title>
-      <link>https://coffeesforclosures/posts/2007-06-27-iphone-costs/</link>
+      <link>https://taybin.github.io/posts/2007-06-27-iphone-costs/</link>
       <pubDate>Wed, 27 Jun 2007 21:33:37 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-06-27-iphone-costs/</guid>
+      <guid>https://taybin.github.io/posts/2007-06-27-iphone-costs/</guid>
       <description>I&amp;#8217;ve seen a lot of blog updates talking about the true cost of the iPhone, including the monthly fees. It comes to about $2000+ for two years. Which is true, and should be considered if you&amp;#8217;ve never had a cell phone before.
 They should be subtracting the current fees they&amp;#8217;re already paying. I pay about $60 a month, which coincides with the $60 a month AT&amp;amp;T plan that&amp;#8217;s being offered. So really, my main consideration is whether I can afford the iPhone itself.</description>
     </item>
     
     <item>
       <title>Python 3000 Status Update</title>
-      <link>https://coffeesforclosures/posts/2007-06-19-python-3000-status-update/</link>
+      <link>https://taybin.github.io/posts/2007-06-19-python-3000-status-update/</link>
       <pubDate>Tue, 19 Jun 2007 21:32:37 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-06-19-python-3000-status-update/</guid>
+      <guid>https://taybin.github.io/posts/2007-06-19-python-3000-status-update/</guid>
       <description>Guido van Rossum&amp;#8217;s Python 3000 Status Update. Nothing new if you&amp;#8217;ve watched his tech talk, but still an interesting read.</description>
     </item>
     
     <item>
       <title>Programming Environment</title>
-      <link>https://coffeesforclosures/posts/2007-05-14-programming-environment/</link>
+      <link>https://taybin.github.io/posts/2007-05-14-programming-environment/</link>
       <pubDate>Mon, 14 May 2007 21:31:29 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-05-14-programming-environment/</guid>
+      <guid>https://taybin.github.io/posts/2007-05-14-programming-environment/</guid>
       <description>There was a bit of downtime at work while we waited for QA to verify our release. I took the oppurtunity to get my workstation running lean and mean.
 First thing was to find a good font. I&amp;#8217;m pretty sick of Monaco. After looking at basically all of the available free programming fonts, I went with Deja Vu. It&amp;#8217;s just like the BitStream Vera, but with more international characters. As far as I&amp;#8217;m concerned, they&amp;#8217;re the one true font.</description>
     </item>
     
     <item>
       <title>so yeah, twitter</title>
-      <link>https://coffeesforclosures/posts/2007-05-01-so-yeah-twitter/</link>
+      <link>https://taybin.github.io/posts/2007-05-01-so-yeah-twitter/</link>
       <pubDate>Tue, 01 May 2007 21:30:03 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-05-01-so-yeah-twitter/</guid>
+      <guid>https://taybin.github.io/posts/2007-05-01-so-yeah-twitter/</guid>
       <description>follow lampshadish at http://twitter.com  I finally signed up for a twitter account today after some prodding from my friend.
 I gotta say, I&amp;#8217;m not really feeling it. As a programmer, I really don&amp;#8217;t want to see constant notifications distracting me and taking me out of the zone. And if I hide Twitterrific and set the update timer to 10 minutes, what&amp;#8217;s the point?
 Right now, the best use of Twitter is as a distributed notification framework, like Growl, but the notifications show up on your cellphone.</description>
@@ -413,19 +413,19 @@ Right now, the best use of Twitter is as a distributed notification framework, l
     
     <item>
       <title>Ardour releases 2.0!</title>
-      <link>https://coffeesforclosures/posts/2007-05-01-ardour-releases-2-0/</link>
+      <link>https://taybin.github.io/posts/2007-05-01-ardour-releases-2-0/</link>
       <pubDate>Tue, 01 May 2007 21:28:43 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-05-01-ardour-releases-2-0/</guid>
+      <guid>https://taybin.github.io/posts/2007-05-01-ardour-releases-2-0/</guid>
       <description>After two years of work, Ardour has released version 2.0. I&amp;#8217;ve been working with Paul Davis on and off for about six years now, and I am enormously happy.</description>
     </item>
     
     <item>
       <title>re: re: leopard delay</title>
-      <link>https://coffeesforclosures/posts/2007-04-17-re-re-leopard-delay/</link>
+      <link>https://taybin.github.io/posts/2007-04-17-re-re-leopard-delay/</link>
       <pubDate>Tue, 17 Apr 2007 21:27:38 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-04-17-re-re-leopard-delay/</guid>
+      <guid>https://taybin.github.io/posts/2007-04-17-re-re-leopard-delay/</guid>
       <description>This is old news, in blog time, but Gruber&amp;#8217;s response to Jalkut&amp;#8217;s comment on the Leopard delay misses a couple points.
 Gruber says:
  That’s right in the middle of the most productive stretch in Mac OS X history – 10.0.0 was released in March 2001, 10.1.0 was released in September, and 10.2.0 was released less than a year after that in August 2002.
@@ -434,67 +434,67 @@ Gruber says:
     
     <item>
       <title>smart counting with dynamic_bitset and boost.framework</title>
-      <link>https://coffeesforclosures/posts/2007-04-07-smart-counting-with-dynamic_bitset-and-boost-framework/</link>
+      <link>https://taybin.github.io/posts/2007-04-07-smart-counting-with-dynamic_bitset-and-boost-framework/</link>
       <pubDate>Sat, 07 Apr 2007 21:25:46 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-04-07-smart-counting-with-dynamic_bitset-and-boost-framework/</guid>
+      <guid>https://taybin.github.io/posts/2007-04-07-smart-counting-with-dynamic_bitset-and-boost-framework/</guid>
       <description>In Ardour, we have numbered audio tracks named Track 1, Track 2, and so on. Most software when faced with what to name the next created track will just use a static int that is incremented with each track.
 With Ardour, we wanted to make it smarter. We wanted to be able to re-add Track 1 if the first track was deleted. But not if the first track had just been renamed.</description>
     </item>
     
     <item>
       <title>zsh test drive</title>
-      <link>https://coffeesforclosures/posts/2007-04-06-zsh-test-drive/</link>
+      <link>https://taybin.github.io/posts/2007-04-06-zsh-test-drive/</link>
       <pubDate>Fri, 06 Apr 2007 21:24:47 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-04-06-zsh-test-drive/</guid>
+      <guid>https://taybin.github.io/posts/2007-04-06-zsh-test-drive/</guid>
       <description>Based on stuffonfire&amp;#8217;s zsh shout out, I&amp;#8217;ll be switching to it on all my accounts and giving it a whirl. I&amp;#8217;ve made it halfway through the user&amp;#8217;s guide, but I might look for an actual book too.
 I need to look up the syntax for bash every time I write a for loop, so I don&amp;#8217;t have to worry about the difficulty of forgetting my old knowledge. I&amp;#8217;ll post if I find anything interesting about it.</description>
     </item>
     
     <item>
       <title>MacOS X memory alignment</title>
-      <link>https://coffeesforclosures/posts/2007-04-03-macos-x-memory-alignment/</link>
+      <link>https://taybin.github.io/posts/2007-04-03-macos-x-memory-alignment/</link>
       <pubDate>Tue, 03 Apr 2007 21:23:46 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-04-03-macos-x-memory-alignment/</guid>
+      <guid>https://taybin.github.io/posts/2007-04-03-macos-x-memory-alignment/</guid>
       <description>I had a hard time finding a definitive statement on MacOS X memory alignment so I did my own tests. On 10.4/intel, both stack and heap memory is 16 byte aligned. So people porting software can stop looking for memalign() and posix_memalign(). It&amp;#8217;s not needed.</description>
     </item>
     
     <item>
       <title>I love it when a plan comes together</title>
-      <link>https://coffeesforclosures/posts/2007-03-27-i-love-it-when-a-plan-comes-together/</link>
+      <link>https://taybin.github.io/posts/2007-03-27-i-love-it-when-a-plan-comes-together/</link>
       <pubDate>Tue, 27 Mar 2007 21:22:46 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-03-27-i-love-it-when-a-plan-comes-together/</guid>
+      <guid>https://taybin.github.io/posts/2007-03-27-i-love-it-when-a-plan-comes-together/</guid>
       <description>With some help from Daniel Jalkut, Dave Dribin, Chris Hanson, and of course Andy Matuschak&amp;#8217;s Sparkle and Reinvented Software&amp;#8217;s Feeder, I finally have a system for pushing Gusto updates that are tied to SVN revision numbers. Once it works, it works pretty good. I might run into some trouble in the future if I were to use a different tree than trunk, but that&amp;#8217;ll be a good ways away.
 I&amp;#8217;m not too worried either because:</description>
     </item>
     
     <item>
       <title>Who is awesome? I am</title>
-      <link>https://coffeesforclosures/posts/2007-02-08-who-is-awesome-i-am/</link>
+      <link>https://taybin.github.io/posts/2007-02-08-who-is-awesome-i-am/</link>
       <pubDate>Thu, 08 Feb 2007 22:21:08 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2007-02-08-who-is-awesome-i-am/</guid>
+      <guid>https://taybin.github.io/posts/2007-02-08-who-is-awesome-i-am/</guid>
       <description>I just got Ardour working on MacOS X without X11. It&amp;#8217;s not stable, but it&amp;#8217;s pretty sweet. Also fun: submitting patches to important projects like Gtk+ and having people say &amp;#8220;thanks!&amp;#8221;</description>
     </item>
     
     <item>
       <title>GSoC 2006 writeup</title>
-      <link>https://coffeesforclosures/posts/2006-10-27-gsoc-2006-writeup/</link>
+      <link>https://taybin.github.io/posts/2006-10-27-gsoc-2006-writeup/</link>
       <pubDate>Fri, 27 Oct 2006 21:18:59 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2006-10-27-gsoc-2006-writeup/</guid>
+      <guid>https://taybin.github.io/posts/2006-10-27-gsoc-2006-writeup/</guid>
       <description>The conference went great. It was an &amp;#8220;unconference&amp;#8221; were people reserve rooms to talk about whatever they want. If other people are interested, they&amp;#8217;ll show up. I gave a talk called Rewarding Contributors that was about the various project management tricks I&amp;#8217;ve done to pay back people who volunteer on Ardour. Sixteen people showed up and the following discussion, mostly with the Drupal team was very rewarding. There was applause afterwards.</description>
     </item>
     
     <item>
       <title>Google Summer of Code conference!</title>
-      <link>https://coffeesforclosures/posts/2006-10-12-google-summer-of-code-conference/</link>
+      <link>https://taybin.github.io/posts/2006-10-12-google-summer-of-code-conference/</link>
       <pubDate>Thu, 12 Oct 2006 21:17:59 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2006-10-12-google-summer-of-code-conference/</guid>
+      <guid>https://taybin.github.io/posts/2006-10-12-google-summer-of-code-conference/</guid>
       <description>I&amp;#8217;m going to the Google Summer of Code conference this Saturday. I&amp;#8217;m flying out to San Jose tomorrow morning.
 I&amp;#8217;m pretty excited. I&amp;#8217;ll be leading a discussion of cheap, homegrown ways to reward contributors to open source projects.
 Then, I&amp;#8217;ll fly to LA to visit some friends. And since I&amp;#8217;ve never been to California before, this is all new to me. Too bad I won&amp;#8217;t have time to check out San Francisco.</description>
@@ -502,20 +502,20 @@ Then, I&amp;#8217;ll fly to LA to visit some friends. And since I&amp;#8217;ve n
     
     <item>
       <title>Objective-C and libsigc&#43;&#43;</title>
-      <link>https://coffeesforclosures/posts/2006-08-31-objective-c-and-libsigc/</link>
+      <link>https://taybin.github.io/posts/2006-08-31-objective-c-and-libsigc/</link>
       <pubDate>Thu, 31 Aug 2006 21:16:42 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2006-08-31-objective-c-and-libsigc/</guid>
+      <guid>https://taybin.github.io/posts/2006-08-31-objective-c-and-libsigc/</guid>
       <description>I&amp;#8217;ve started working on a secret MacOSX project. I decided to use Apple&amp;#8217;s Cocoa framework, so that means I have to use Objective-C. The backend I&amp;#8217;m basing my project on is in C++ and uses the libsigc++ callback library as an important component of its interface with the frontend. So how do you setup ObjC methods to be called back?
 Use my glue header. It will create glue functions at compile time for calling objc_msgSend() with the appropriate arguments.</description>
     </item>
     
     <item>
       <title>The Mother of All Dubbers</title>
-      <link>https://coffeesforclosures/posts/2006-07-17-the-mother-of-all-dubbers/</link>
+      <link>https://taybin.github.io/posts/2006-07-17-the-mother-of-all-dubbers/</link>
       <pubDate>Mon, 17 Jul 2006 21:14:36 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2006-07-17-the-mother-of-all-dubbers/</guid>
+      <guid>https://taybin.github.io/posts/2006-07-17-the-mother-of-all-dubbers/</guid>
       <description>From Harrison&amp;#8217;s marketing materials:
  The recording software behind the X-Dubber is an open-source, highly scalable program called Ardour. The stable, full-featured Ardour workstation has the capabilities you would expect from a state of the art workstation. By focusing on the specific needs of the post-production community, Harrison has packaged the Ardour workstationinto a robust, streamlined re-recording product that meets the needs ofour world-class customers.
  Pretty awesome. Go Team Ardour.</description>
@@ -523,10 +523,10 @@ Use my glue header. It will create glue functions at compile time for calling ob
     
     <item>
       <title>Stop using deprecated dlopen() constructors</title>
-      <link>https://coffeesforclosures/posts/2006-05-31-stop-using-deprecated-dlopen-constructors/</link>
+      <link>https://taybin.github.io/posts/2006-05-31-stop-using-deprecated-dlopen-constructors/</link>
       <pubDate>Wed, 31 May 2006 21:10:00 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2006-05-31-stop-using-deprecated-dlopen-constructors/</guid>
+      <guid>https://taybin.github.io/posts/2006-05-31-stop-using-deprecated-dlopen-constructors/</guid>
       <description>As I re-discovered for the third time last evening, LADSPA programmers still haven&amp;#8217;t made the switch from _init() to __attribute__((constructor)) void init() {}.
 The older mechanism has been deprecated since the early/mid &amp;#8217;90s. Most operating systems still supported it but with MacOSX 10.4, Apple dropped support when they implemented their own dlopen() support.
 I&amp;#8217;ve sent an email about it to the LAD mailing list, but apparently no one listened.</description>
@@ -534,10 +534,10 @@ I&amp;#8217;ve sent an email about it to the LAD mailing list, but apparently no
     
     <item>
       <title>fftw and intel iMacs</title>
-      <link>https://coffeesforclosures/posts/2006-05-31-fftw-and-intel-imacs/</link>
+      <link>https://taybin.github.io/posts/2006-05-31-fftw-and-intel-imacs/</link>
       <pubDate>Wed, 31 May 2006 21:03:52 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2006-05-31-fftw-and-intel-imacs/</guid>
+      <guid>https://taybin.github.io/posts/2006-05-31-fftw-and-intel-imacs/</guid>
       <description>If you are trying to compile fftw3 on an intel iMac (or any Intel Core processor probably), you&amp;#8217;ll need to pass to configure:
 &amp;lt;br /&amp;gt; --with-gcc-arch=prescott&amp;lt;br /&amp;gt;
 That will prevent compiler errors complaining about illegal i386 instructions.</description>
@@ -545,10 +545,10 @@ That will prevent compiler errors complaining about illegal i386 instructions.</
     
     <item>
       <title>Ardour&#39;s new website</title>
-      <link>https://coffeesforclosures/posts/2006-03-28-ardours-new-website/</link>
+      <link>https://taybin.github.io/posts/2006-03-28-ardours-new-website/</link>
       <pubDate>Tue, 28 Mar 2006 22:08:46 +0000</pubDate>
       
-      <guid>https://coffeesforclosures/posts/2006-03-28-ardours-new-website/</guid>
+      <guid>https://taybin.github.io/posts/2006-03-28-ardours-new-website/</guid>
       <description>Check out the new site for Ardour that we (mostly me) made. It uses the latest Drupal beta and it&amp;#8217;s pretty rocking.</description>
     </item>
     
